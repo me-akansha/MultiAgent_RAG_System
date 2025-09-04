@@ -8,17 +8,16 @@ import os
 
 # ---- Page Config ----
 st.set_page_config(
-    page_title="HR Buddy 🤖",
-    page_icon="🤖",
+    page_title="HI Buddy 🤖",
     layout="wide"
 )
 
 # ---- Sidebar ----
 with st.sidebar:
     st.title("🧭 Navigator")
-    st.caption("Your personal HR chatbot for salary 💼 and insurance 🛡️ questions.")
+    st.caption("Your personal HR chatbot for salary  and insurance  questions.")
 
-    st.markdown("### ✨ Quick Questions")
+    st.markdown("###  Quick Questions")
     if st.button("💰 How do I calculate annual salary?"):
         st.session_state.prefill = "How do I calculate annual salary?"
     if st.button("📄 What is included in my CTC?"):
